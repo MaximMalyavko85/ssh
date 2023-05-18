@@ -17,6 +17,7 @@ KEY_PRIVATE
 
 
 > ssh-keygen
+> --> Enter passphrase (empty for no passphrase): bruh
 > --> /home/username/.ssh
 > copy KEY_PUBLIC --> ssh-copy-id username@remote_host
 > or cat ~/.ssh/id_rsa.pub   (ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCqql6MzstZYh1TmWWv11q5...)
