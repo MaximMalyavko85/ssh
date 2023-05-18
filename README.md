@@ -14,3 +14,12 @@ KEY_PRIVATE
 3 CLIENT ---------------> sure messge was 'bruh' ---------------> SERVER 
 
 4 CLIENT <--------------- welcome <--------------- SERVER 
+
+
+> ssh-keygen
+> --> /home/username/.ssh
+> copy KEY_PUBLIC --> ssh-copy-id username@remote_host
+> or cat ~/.ssh/id_rsa.pub   (ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCqql6MzstZYh1TmWWv11q5...)
+
+ssh username@remote_host >> yes
+
